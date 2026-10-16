@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Translight</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="panel">
+      <h1>Translight</h1>
+
+      <label class="field">
+        <span class="field-label">Translate into</span>
+        <select id="target-lang"></select>
+      </label>
+
+      <label class="toggle-row">
+        <span class="field-label">Enabled</span>
+        <span class="switch">
+          <input type="checkbox" id="enabled-toggle" />
+          <span class="slider"></span>
+        </span>
+      </label>
+    </div>
+    <script src="../shared/storage.js"></script>
+    <script src="../shared/languages.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>

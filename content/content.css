@@ -1,0 +1,9 @@
+/* Injected into the page, but the box itself lives in a shadow root — this
+   file only needs to guarantee the host element never disturbs page layout. */
+#translight-host {
+  all: initial;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2147483647;
+}
